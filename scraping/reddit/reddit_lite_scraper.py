@@ -31,7 +31,10 @@ class RedditLiteScraper(Scraper):
     BASE_RUN_INPUT = {
         "debugMode": False,
         "includeNSFW": False,
-        "proxy": {"useApifyProxy": True},
+        "proxy": {
+            "useApifyProxy": True,
+            "apifyProxyGroups": ["RESIDENTIAL"],  # Specify to use residential proxies
+        },
         "scrollTimeout": 40,
         "searchCommunities": False,
         "searchUsers": False,

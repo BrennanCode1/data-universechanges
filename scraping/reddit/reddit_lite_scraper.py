@@ -23,7 +23,7 @@ class RedditLiteScraper(Scraper):
     Scrapes Reddit data using the Reddit Scraper Lite actor.
     """
 
-    ACTOR_ID = "oAuCIx3ItNrs2okjQ"
+    ACTOR_ID = "FgJtjDwJCLhRH9saM"
 
     # The Reddit Actor seems a lot slower. Bump the timeout to 2 mins.
     SCRAPE_TIMEOUT_SECS = 120
